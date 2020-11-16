@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/jinzhu/gorm"
-	"github.com/victorsteven/fullstack/api/utils/strconvert"
+	"github.com/phapsu86/tamlinhapi/api/utils/strconvert"
 )
 
 //Tb ReligionEvent

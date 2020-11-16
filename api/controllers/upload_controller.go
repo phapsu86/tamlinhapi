@@ -13,13 +13,13 @@ import (
 	"os"
 	"time"
 
-	"github.com/victorsteven/fullstack/api/auth"
-	"github.com/victorsteven/fullstack/api/responses"
-	"github.com/victorsteven/fullstack/api/utils/formaterror"
+	"github.com/phapsu86/tamlinhapi/api/auth"
+	"github.com/phapsu86/tamlinhapi/api/responses"
+	"github.com/phapsu86/tamlinhapi/api/utils/formaterror"
 
 	"context"
 
-	"github.com/victorsteven/fullstack/api/models"
+	"github.com/phapsu86/tamlinhapi/api/models"
 
 	"github.com/minio/minio-go/v7"
 	"github.com/minio/minio-go/v7/pkg/credentials"

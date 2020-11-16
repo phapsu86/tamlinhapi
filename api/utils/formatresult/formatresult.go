@@ -3,7 +3,7 @@ package formatresult
 import (
 	//"errors"
 	//"strings"
-	"github.com/victorsteven/fullstack/api/models"
+	"github.com/phapsu86/tamlinhapi/api/models"
 )
 
 type ResultGlobalArray struct {

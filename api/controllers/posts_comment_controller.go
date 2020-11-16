@@ -10,11 +10,11 @@ import (
 	"strconv"
 
 	"github.com/gorilla/mux"
-	"github.com/victorsteven/fullstack/api/auth"
-	"github.com/victorsteven/fullstack/api/models"
-	"github.com/victorsteven/fullstack/api/responses"
-	"github.com/victorsteven/fullstack/api/utils/formaterror"
-	"github.com/victorsteven/fullstack/api/utils/formatresult"
+	"github.com/phapsu86/tamlinhapi/api/auth"
+	"github.com/phapsu86/tamlinhapi/api/models"
+	"github.com/phapsu86/tamlinhapi/api/responses"
+	"github.com/phapsu86/tamlinhapi/api/utils/formaterror"
+	"github.com/phapsu86/tamlinhapi/api/utils/formatresult"
 )
 
 func (server *Server) CreatePostComment(w http.ResponseWriter, r *http.Request) {

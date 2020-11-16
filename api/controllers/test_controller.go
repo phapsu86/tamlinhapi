@@ -6,8 +6,8 @@ import (
 
 
 	
-	"github.com/victorsteven/fullstack/api/models"
-	"github.com/victorsteven/fullstack/api/responses"
+	"github.com/phapsu86/tamlinhapi/api/models"
+	"github.com/phapsu86/tamlinhapi/api/responses"
 	
 )
 //Chưc năng get test

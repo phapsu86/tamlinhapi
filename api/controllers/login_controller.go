@@ -8,10 +8,10 @@ import (
 	"net/http"
 	"net/smtp"
 
-	"github.com/victorsteven/fullstack/api/auth"
-	"github.com/victorsteven/fullstack/api/models"
-	"github.com/victorsteven/fullstack/api/responses"
-	"github.com/victorsteven/fullstack/api/utils/formaterror"
+	"github.com/phapsu86/tamlinhapi/api/auth"
+	"github.com/phapsu86/tamlinhapi/api/models"
+	"github.com/phapsu86/tamlinhapi/api/responses"
+	"github.com/phapsu86/tamlinhapi/api/utils/formaterror"
 	"golang.org/x/crypto/bcrypt"
 )
 
@@ -150,7 +150,6 @@ func (server *Server) Logout(w http.ResponseWriter, r *http.Request) {
 
 func (server *Server) ForgotPass(w http.ResponseWriter, r *http.Request) {
 
-
 	resultFail := ResultFail{}
 
 	body, err := ioutil.ReadAll(r.Body)
@@ -186,22 +185,22 @@ func (server *Server) ForgotPass(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-    contentMail := "Mật khẩu trên ứng dụng của bạn đã thay đổi thành " + pass + "vui lòng đăng nhập và đổi lại mật khẩu."
-	send("Reset mật khẩu ứng dụng tâm linh",contentMail,user.Email,user.Password)
+	contentMail := "Mật khẩu trên ứng dụng của bạn đã thay đổi thành " + pass + "vui lòng đăng nhập và đổi lại mật khẩu."
+	send("Reset mật khẩu ứng dụng tâm linh", contentMail, user.Email, user.Password)
 	result := ResultLogin{}
 	result.Status = http.StatusOK
 	result.Data = "success"
 	responses.JSON(w, http.StatusOK, result)
 }
 
-func send(title string,body string, email string, password string) {
+func send(title string, body string, email string, password string) {
 	from := "monopowernguyen@gmail.com"
 	pass := "Toilaai@86"
 	to := email
 
 	msg := "From: " + from + "\n" +
 		"To: " + to + "\n" +
-		"Subject: "+ title +"\n\n" +
+		"Subject: " + title + "\n\n" +
 		body
 
 	err := smtp.SendMail("smtp.gmail.com:587",

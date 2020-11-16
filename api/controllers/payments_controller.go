@@ -11,10 +11,10 @@ import (
 	//"strconv"
 
 	//"github.com/gorilla/mux"
-	"github.com/victorsteven/fullstack/api/auth"
-	"github.com/victorsteven/fullstack/api/models"
+	"github.com/phapsu86/tamlinhapi/api/auth"
+	"github.com/phapsu86/tamlinhapi/api/models"
 
-	"github.com/victorsteven/fullstack/api/responses"
+	"github.com/phapsu86/tamlinhapi/api/responses"
 )
 
 type ParamTopupPoint struct {

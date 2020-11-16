@@ -7,7 +7,7 @@ services:
       - 8080:8080 # Forward the exposed port 8080 on the container to port 8080 on the host machine
     restart: on-failure
     volumes:
-      - /Source Code/spirituality_project/api/jwt_service/src/:/usr/src/app/
+      - /sourcecode/tamlinhgit/:/usr/src/app/
    # depends_on:
       #- postgres # This service depends on postgres. Start that first.
        #- mysql # This service depends on mysql. Start that first.
@@ -50,7 +50,7 @@ volumes:
   api: 
     driver_opts:
       type: bind
-      device: /Source Code/spirituality_project/api/jwt_service/src/                # Hãy đảm bảo có thư mục /mycode/default
+      device: /sourcecode/tamlinhgit/                # Hãy đảm bảo có thư mục /mycode/default
       o: bind
  
   

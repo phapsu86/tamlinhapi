@@ -1,9 +1,7 @@
 package main
 
 import (
-	"github.com/victorsteven/fullstack/api"
-
-	
+	api "github.com/phapsu86/tamlinhapi"
 )
 
 func main() {
