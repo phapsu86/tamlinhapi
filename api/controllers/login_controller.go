@@ -8,10 +8,10 @@ import (
 	"net/http"
 	"net/smtp"
 
-	"github.com/phapsu86/tamlinhapi/api/auth"
-	"github.com/phapsu86/tamlinhapi/api/models"
-	"github.com/phapsu86/tamlinhapi/api/responses"
-	"github.com/phapsu86/tamlinhapi/api/utils/formaterror"
+	"github.com/phapsu86/tamlinh/api/auth"
+	"github.com/phapsu86/tamlinh/api/models"
+	"github.com/phapsu86/tamlinh/api/responses"
+	"github.com/phapsu86/tamlinh/api/utils/formaterror"
 	"golang.org/x/crypto/bcrypt"
 )
 

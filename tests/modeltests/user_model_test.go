@@ -6,7 +6,7 @@ import (
 
 	_ "github.com/jinzhu/gorm/dialects/mysql"    //mysql driver
 	_ "github.com/jinzhu/gorm/dialects/postgres" //postgres driver
-	"github.com/phapsu86/tamlinhapi/api/models"
+	"github.com/phapsu86/tamlinh/api/models"
 	"gopkg.in/go-playground/assert.v1"
 )
 

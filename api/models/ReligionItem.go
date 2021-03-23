@@ -8,7 +8,7 @@ import (
 	"time"
 
 	"github.com/jinzhu/gorm"
-	"github.com/phapsu86/tamlinhapi/api/utils/strconvert"
+	"github.com/phapsu86/tamlinh/api/utils/strconvert"
 )
 
 //Tb ReligionItem

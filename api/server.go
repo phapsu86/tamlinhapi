@@ -6,8 +6,8 @@ import (
 	"os"
 
 	"github.com/joho/godotenv"
-	"github.com/phapsu86/tamlinhapi/api/controllers"
-	//"github.com/phapsu86/tamlinhapi/api/seed"
+	"github.com/phapsu86/tamlinh/api/controllers"
+	//"github.com/phapsu86/tamlinh/api/seed"
 )
 
 var server = controllers.Server{}

@@ -8,8 +8,8 @@ import (
 
 	"github.com/jinzhu/gorm"
 	"github.com/joho/godotenv"
-	"github.com/phapsu86/tamlinhapi/api/controllers"
-	"github.com/phapsu86/tamlinhapi/api/models"
+	"github.com/phapsu86/tamlinh/api/controllers"
+	"github.com/phapsu86/tamlinh/api/models"
 )
 
 var server = controllers.Server{}

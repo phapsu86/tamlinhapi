@@ -1,6 +1,6 @@
 package controllers
 
-import "github.com/phapsu86/tamlinhapi/api/middlewares"
+import "github.com/phapsu86/tamlinh/api/middlewares"
 
 func (s *Server) initializeRoutes() {
 

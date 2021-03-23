@@ -15,7 +15,7 @@ import (
 	_ "github.com/jinzhu/gorm/dialects/postgres" //postgres database driver
 
 	//	_ "github.com/jinzhu/gorm/dialects/sqlite"   // sqlite database driver
-	"github.com/phapsu86/tamlinhapi/api/models"
+	"github.com/phapsu86/tamlinh/api/models"
 	//setup Minio
 
 	"github.com/minio/minio-go/v7"

@@ -9,11 +9,11 @@ import (
 	"strconv"
 
 	"github.com/gorilla/mux"
-	"github.com/phapsu86/tamlinhapi/api/auth"
-	"github.com/phapsu86/tamlinhapi/api/models"
-	"github.com/phapsu86/tamlinhapi/api/responses"
-	"github.com/phapsu86/tamlinhapi/api/utils/formaterror"
-	"github.com/phapsu86/tamlinhapi/api/utils/formatresult"
+	"github.com/phapsu86/tamlinh/api/auth"
+	"github.com/phapsu86/tamlinh/api/models"
+	"github.com/phapsu86/tamlinh/api/responses"
+	"github.com/phapsu86/tamlinh/api/utils/formaterror"
+	"github.com/phapsu86/tamlinh/api/utils/formatresult"
 )
 
 func (server *Server) CreatePost(w http.ResponseWriter, r *http.Request) {

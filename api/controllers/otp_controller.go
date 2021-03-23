@@ -10,10 +10,10 @@ import (
 
 	"github.com/gorilla/mux"
 
-	"github.com/phapsu86/tamlinhapi/api/models"
-	"github.com/phapsu86/tamlinhapi/api/responses"
+	"github.com/phapsu86/tamlinh/api/models"
+	"github.com/phapsu86/tamlinh/api/responses"
 
-	"github.com/phapsu86/tamlinhapi/api/utils/formaterror"
+	"github.com/phapsu86/tamlinh/api/utils/formaterror"
 )
 
 //Chưc năng get test

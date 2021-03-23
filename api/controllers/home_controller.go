@@ -3,7 +3,7 @@ package controllers
 import (
 	"net/http"
 
-	"github.com/phapsu86/tamlinhapi/api/responses"
+	"github.com/phapsu86/tamlinh/api/responses"
 )
 
 func (server *Server) Home(w http.ResponseWriter, r *http.Request) {

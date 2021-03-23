@@ -6,8 +6,8 @@ import (
 
 
 	
-	"github.com/phapsu86/tamlinhapi/api/models"
-	"github.com/phapsu86/tamlinhapi/api/responses"
+	"github.com/phapsu86/tamlinh/api/models"
+	"github.com/phapsu86/tamlinh/api/responses"
 	
 )
 //Chưc năng get test
